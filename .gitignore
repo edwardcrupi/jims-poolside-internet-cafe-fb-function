@@ -2,3 +2,4 @@
 .env.json
 datastore-credentials.json
 node_modules/
+.DS_Store
