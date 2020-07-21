@@ -1,0 +1,4 @@
+.env.dev.yaml
+.env.json
+datastore-credentials.json
+node_modules/
