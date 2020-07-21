@@ -1,0 +1,14 @@
+{
+  "name": "sample-http",
+  "version": "0.0.1",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.1.0",
+    "@google-cloud/functions-framework": "^1.6.0",
+    "env-cmd": "^10.1.0",
+    "request": "^2.88.2",
+    "yaml2json": "^1.0.2"
+  },
+  "scripts": {
+    "start": "yaml2json .env.dev.yaml >.env.json && env-cmd -r ./.env.json functions-framework --target=helloWorld"
+  }
+}
