@@ -9,6 +9,6 @@
     "yaml2json": "^1.0.2"
   },
   "scripts": {
-    "start": "yaml2json .env.dev.yaml >.env.json && env-cmd -r ./.env.json functions-framework --target=helloWorld"
+    "start": "yaml2json .env.dev.yaml > .env.json && env-cmd -r ./.env.json functions-framework --target=helloWorld"
   }
 }
