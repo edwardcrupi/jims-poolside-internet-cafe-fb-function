@@ -6,6 +6,7 @@
     "@google-cloud/functions-framework": "^1.6.0",
     "env-cmd": "^10.1.0",
     "request": "^2.88.2",
+    "request-promise": "^4.2.6",
     "yamljs": "^0.3.0"
   },
   "scripts": {
